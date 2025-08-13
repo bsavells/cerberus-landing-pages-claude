@@ -22,7 +22,7 @@ export default function Home() {
         <section className="container mx-auto flex max-w-7xl flex-col items-center justify-center space-y-8 px-4 text-center md:px-6">
           <div className="w-full max-w-4xl">
             <Card className="overflow-hidden rounded-xl border-0 shadow-2xl shadow-primary/10">
-              <CardContent className="p-6">
+              <CardContent className="p-0">
                 <div className="flex flex-col items-center gap-4">
                   <Image
                     src="https://placehold.co/1200x180.png"
@@ -52,12 +52,12 @@ export default function Home() {
               </Link>
             </Button>
           </div>
-          <p className="max-w-[700px] text-muted-foreground md:text-xl pt-8 pb-8">
+          <p className="max-w-[700px] text-muted-foreground md:text-xl pt-4 pb-8">
             Access your HTML 5 web-based StatusScout hub by selecting the Web Launcher button above
           </p>
         </section>
 
-        <section id="features" className="w-full bg-card py-16 md:py-24 lg:py-32">
+        <section id="features" className="w-full bg-card py-12 md:py-16 lg:py-20">
           <div className="container mx-auto px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
