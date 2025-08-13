@@ -25,7 +25,7 @@ export default function Home() {
               <CardContent className="p-0">
                 <div className="flex flex-col items-center gap-4">
                   <Image
-                    src="https://placehold.co/1200x180.png"
+                    src="/statusscout-logo.png"
                     alt="StatusScout Logo"
                     width={1200}
                     height={180}
@@ -33,7 +33,7 @@ export default function Home() {
                     data-ai-hint="logo company"
                   />
                   <Image
-                    src="https://placehold.co/1200x1273.png"
+                    src="/cerberus-watchdog-logo.png"
                     alt="Cerberus Watchdog Logo"
                     width={1200}
                     height={1273}
