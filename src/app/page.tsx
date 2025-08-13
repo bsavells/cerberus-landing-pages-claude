@@ -31,18 +31,18 @@ export default function Home() {
               <CardContent className="p-6">
                 <div className="flex flex-col items-center gap-4">
                   <Image
-                    src="https://placehold.co/200x50.png"
+                    src="https://placehold.co/400x100.png"
                     alt="StatusScout Logo"
-                    width={200}
-                    height={50}
+                    width={400}
+                    height={100}
                     className="rounded-md"
                     data-ai-hint="logo company"
                   />
                   <Image
-                    src="https://placehold.co/100x100.png"
+                    src="https://placehold.co/200x200.png"
                     alt="Cerberus Watchdog Logo"
-                    width={100}
-                    height={100}
+                    width={200}
+                    height={200}
                     className="rounded-md"
                     data-ai-hint="logo watchdog"
                   />
