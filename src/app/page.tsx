@@ -19,7 +19,7 @@ export default function Home() {
       </header>
 
       <main className="flex-1">
-        <section className="container mx-auto flex max-w-7xl flex-col items-center justify-center space-y-8 px-4 py-16 text-center md:px-6 md:py-24 lg:py-32">
+        <section className="container mx-auto flex max-w-7xl flex-col items-center justify-center space-y-8 px-4 pt-8 text-center md:px-6">
           <div className="w-full max-w-4xl">
             <Card className="overflow-hidden rounded-xl border-0 shadow-2xl shadow-primary/10">
               <CardContent className="p-6">
