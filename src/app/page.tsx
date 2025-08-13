@@ -23,7 +23,7 @@ export default function Home() {
           <div className="w-full max-w-4xl">
             <Card className="overflow-hidden rounded-xl border-0 shadow-2xl shadow-primary/10">
               <CardContent className="p-0">
-                <div className="flex flex-col items-center gap-4">
+                <div className="flex flex-col items-center gap-4 pt-5">
                   <Image
                     src="/statusscout-logo.png"
                     alt="StatusScout Logo"
@@ -35,8 +35,8 @@ export default function Home() {
                   <Image
                     src="/cerberus-watchdog-logo.png"
                     alt="Cerberus Watchdog Logo"
-                    width={1200}
-                    height={1273}
+                    width={300}
+                    height={318}
                     className="rounded-md"
                     data-ai-hint="logo watchdog"
                   />
