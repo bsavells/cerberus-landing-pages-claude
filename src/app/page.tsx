@@ -20,12 +20,6 @@ export default function Home() {
 
       <main className="flex-1">
         <section className="container mx-auto flex max-w-7xl flex-col items-center justify-center space-y-8 px-4 py-16 text-center md:px-6 md:py-24 lg:py-32">
-          <h1 className="text-4xl font-headline font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
-            Watchdog Web Launchpad
-          </h1>
-          <p className="max-w-[700px] text-muted-foreground md:text-xl">
-            Your central hub for launching and monitoring critical web services. Seamlessly integrated with StatusScout for ultimate reliability.
-          </p>
           <div className="w-full max-w-4xl pt-8">
             <Card className="overflow-hidden rounded-xl border-0 shadow-2xl shadow-primary/10">
               <CardContent className="p-6">
@@ -58,6 +52,9 @@ export default function Home() {
               </Link>
             </Button>
           </div>
+          <p className="max-w-[700px] text-muted-foreground md:text-xl pt-8">
+            Your central hub for launching and monitoring critical web services. Seamlessly integrated with StatusScout for ultimate reliability.
+          </p>
         </section>
 
         <section id="features" className="w-full bg-card py-16 md:py-24 lg:py-32">
