@@ -39,10 +39,10 @@ export default function Home() {
                     data-ai-hint="logo company"
                   />
                   <Image
-                    src="https://placehold.co/400x424.png"
+                    src="https://placehold.co/1200x1273.png"
                     alt="Cerberus Watchdog Logo"
-                    width={400}
-                    height={424}
+                    width={1200}
+                    height={1273}
                     className="rounded-md"
                     data-ai-hint="logo watchdog"
                   />
