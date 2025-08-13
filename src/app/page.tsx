@@ -31,10 +31,10 @@ export default function Home() {
               <CardContent className="p-6">
                 <div className="flex flex-col items-center gap-4">
                   <Image
-                    src="https://placehold.co/400x100.png"
+                    src="https://placehold.co/1200x180.png"
                     alt="StatusScout Logo"
-                    width={400}
-                    height={100}
+                    width={1200}
+                    height={180}
                     className="rounded-md"
                     data-ai-hint="logo company"
                   />
