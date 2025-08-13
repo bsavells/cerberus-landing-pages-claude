@@ -3,7 +3,6 @@ import Link from 'next/link';
 import { Rocket, ShieldCheck, BarChart, Bell } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Separator } from '@/components/ui/separator';
 
 // User can define the web launch URL here
 const WEB_LAUNCH_URL = "https://example.com";
@@ -30,30 +29,23 @@ export default function Home() {
           <div className="w-full max-w-4xl pt-8">
             <Card className="overflow-hidden rounded-xl border-0 shadow-2xl shadow-primary/10">
               <CardContent className="p-6">
-                <div className="flex justify-center items-center gap-8">
-                  <div className="flex items-center gap-3">
-                    <Image
-                      src="https://placehold.co/40x40.png"
-                      alt="StatusScout Logo"
-                      width={40}
-                      height={40}
-                      className="h-10 w-10 rounded-md"
-                      data-ai-hint="logo company"
-                    />
-                    <span className="font-semibold text-xl">StatusScout</span>
-                  </div>
-                  <Separator orientation="vertical" className="h-10" />
-                  <div className="flex items-center gap-3">
-                    <Image
-                      src="https://placehold.co/40x40.png"
-                      alt="Cerberus Watchdog Logo"
-                      width={40}
-                      height={40}
-                      className="h-10 w-10 rounded-md"
-                      data-ai-hint="logo watchdog"
-                    />
-                    <span className="font-semibold text-xl">Cerberus Watchdog</span>
-                  </div>
+                <div className="flex flex-col items-center gap-4">
+                  <Image
+                    src="https://placehold.co/200x50.png"
+                    alt="StatusScout Logo"
+                    width={200}
+                    height={50}
+                    className="rounded-md"
+                    data-ai-hint="logo company"
+                  />
+                  <Image
+                    src="https://placehold.co/100x100.png"
+                    alt="Cerberus Watchdog Logo"
+                    width={100}
+                    height={100}
+                    className="rounded-md"
+                    data-ai-hint="logo watchdog"
+                  />
                 </div>
               </CardContent>
             </Card>
@@ -118,18 +110,10 @@ export default function Home() {
       </main>
 
       <footer className="w-full border-t bg-card">
-        <div className="container mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 py-6 text-center sm:flex-row md:px-6">
+        <div className="container mx-auto flex max-w-7xl flex-col items-center justify-center gap-4 px-4 py-6 text-center sm:flex-row md:px-6">
           <p className="text-sm text-muted-foreground">
             © 2022-2025 <Link href="https://www.tradewindcontrols.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-foreground">Tradewind Controls</Link>. All rights reserved.
           </p>
-          <div className="flex gap-4">
-            <Link href="#" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
-              Privacy Policy
-            </Link>
-            <Link href="#" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
-              Terms of Service
-            </Link>
-          </div>
         </div>
       </footer>
     </div>
