@@ -27,8 +27,8 @@ export default function Home() {
                   <Image
                     src="/statusscout-logo.png"
                     alt="StatusScout Logo"
-                    width={1200}
-                    height={180}
+                    width={840}
+                    height={126}
                     className="rounded-md"
                     data-ai-hint="logo company"
                   />
