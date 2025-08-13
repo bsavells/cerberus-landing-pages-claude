@@ -23,7 +23,7 @@ export default function Home() {
           <div className="w-full max-w-4xl">
             <Card className="overflow-hidden rounded-xl border-0 shadow-2xl shadow-primary/10">
               <CardContent className="p-0">
-                <div className="flex flex-col items-center gap-4 pt-5">
+                <div className="flex flex-col items-center gap-4 pt-2.5">
                   <Image
                     src="/statusscout-logo.png"
                     alt="StatusScout Logo"
