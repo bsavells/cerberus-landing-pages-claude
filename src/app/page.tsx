@@ -87,7 +87,7 @@ export default function Home() {
                   <CardTitle className="text-xl font-headline">Instant Alerts</CardTitle>
                 </CardHeader>
                 <CardContent className="text-muted-foreground">
-                  Receive immediate notifications via email, SMS, or Slack the moment an issue is detected.
+                  Receive immediate notifications vis SMS when an alarm triggers in the system.
                 </CardContent>
               </Card>
               <Card className="bg-transparent shadow-none border-0">
