@@ -63,7 +63,7 @@ export default function Home() {
               <div className="space-y-2">
                 <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-5xl">Key Features</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Everything you need to keep your services online and performing optimally.
+                  Powered by Ignition from Inductive Automation
                 </p>
               </div>
             </div>
