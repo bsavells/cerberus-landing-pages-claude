@@ -120,7 +120,7 @@ export default function Home() {
       <footer className="w-full border-t bg-card">
         <div className="container mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 py-6 text-center sm:flex-row md:px-6">
           <p className="text-sm text-muted-foreground">
-            © 2024 Cerberus Watchdog Inc. All rights reserved.
+            © 2022-2025 <Link href="https://www.tradewindcontrols.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-foreground">Tradewind Controls</Link>. All rights reserved.
           </p>
           <div className="flex gap-4">
             <Link href="#" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
