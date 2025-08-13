@@ -14,27 +14,7 @@ export default function Home() {
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container mx-auto flex h-16 max-w-7xl items-center justify-between px-4 md:px-6">
           <div className="flex items-center gap-3">
-            <Image
-              src="https://placehold.co/40x40.png"
-              alt="StatusScout Logo"
-              width={32}
-              height={32}
-              className="h-8 w-8 rounded-md"
-              data-ai-hint="logo company"
-            />
-            <span className="font-semibold text-lg">StatusScout</span>
-          </div>
-          <div className="flex items-center gap-3">
-             <Separator orientation="vertical" className="h-8 mx-2 hidden md:block" />
-            <Image
-              src="https://placehold.co/40x40.png"
-              alt="Cerberus Watchdog Logo"
-              width={32}
-              height={32}
-              className="h-8 w-8 rounded-md"
-              data-ai-hint="logo watchdog"
-            />
-            <span className="font-semibold text-lg">Cerberus Watchdog</span>
+            <span className="font-semibold text-lg">Mid-States Operating Company</span>
           </div>
         </div>
       </header>
@@ -49,15 +29,32 @@ export default function Home() {
           </p>
           <div className="w-full max-w-4xl pt-8">
             <Card className="overflow-hidden rounded-xl border-0 shadow-2xl shadow-primary/10">
-              <CardContent className="p-0">
-                <Image
-                  src="https://placehold.co/1200x600.png"
-                  alt="Integration Dashboard"
-                  width={1200}
-                  height={600}
-                  className="aspect-video w-full object-cover"
-                  data-ai-hint="software interface"
-                />
+              <CardContent className="p-6">
+                <div className="flex justify-center items-center gap-8">
+                  <div className="flex items-center gap-3">
+                    <Image
+                      src="https://placehold.co/40x40.png"
+                      alt="StatusScout Logo"
+                      width={40}
+                      height={40}
+                      className="h-10 w-10 rounded-md"
+                      data-ai-hint="logo company"
+                    />
+                    <span className="font-semibold text-xl">StatusScout</span>
+                  </div>
+                  <Separator orientation="vertical" className="h-10" />
+                  <div className="flex items-center gap-3">
+                    <Image
+                      src="https://placehold.co/40x40.png"
+                      alt="Cerberus Watchdog Logo"
+                      width={40}
+                      height={40}
+                      className="h-10 w-10 rounded-md"
+                      data-ai-hint="logo watchdog"
+                    />
+                    <span className="font-semibold text-xl">Cerberus Watchdog</span>
+                  </div>
+                </div>
               </CardContent>
             </Card>
           </div>
