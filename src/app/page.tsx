@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 // User can define the web launch URL here
-const WEB_LAUNCH_URL = "https://example.com";
+const WEB_LAUNCH_URL = "https://sc-scada1.statusscout.io:8043/data/perspective/client/MidstatesHub";
 
 export default function Home() {
   return (
@@ -27,8 +27,8 @@ export default function Home() {
                   <Image
                     src="/statusscout-logo.png"
                     alt="StatusScout Logo"
-                    width={840}
-                    height={126}
+                    width={588}
+                    height={88}
                     className="rounded-md"
                     data-ai-hint="logo company"
                   />
