@@ -46,14 +46,14 @@ export default function Home() {
           </div>
           <div className="pt-8">
             <Button asChild size="lg" className="h-14 transform-gpu px-10 text-lg transition-transform duration-200 hover:scale-105">
-              <Link href={WEB_LAUNCH_URL} target="_blank" rel="noopener noreferrer">
+              <Link href={WEB_LAUNCH_URL}>
                 <Rocket className="mr-2 h-6 w-6" />
                 Web Launcher
               </Link>
             </Button>
           </div>
           <p className="max-w-[700px] text-muted-foreground md:text-xl pt-4 pb-8">
-            Access your HTML 5 web-based StatusScout hub by selecting the Web Launcher button above
+            Access your HTML 5 web-based Cerberus Watchdog hub by selecting the Web Launcher button above
           </p>
         </section>
 
