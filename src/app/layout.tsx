@@ -2,8 +2,8 @@ import type {Metadata} from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Watchdog Web Launchpad',
-  description: 'A single-page launchpad for your web services.',
+  title: 'Cerberus Watchdog - Midstates Operating',
+  description: 'Hosted SCADA by Tradewind Controls.',
 };
 
 export default function RootLayout({
