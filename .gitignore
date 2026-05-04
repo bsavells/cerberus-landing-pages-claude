@@ -45,7 +45,7 @@ firebase-debug.log
 firestore-debug.log
 
 # claude code (user-local)
-.claude/settings.local.json
+.claude/settings.local*
 .claude/worktrees/
 
 # editor / local tooling
