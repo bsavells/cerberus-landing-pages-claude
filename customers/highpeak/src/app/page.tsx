@@ -29,7 +29,7 @@ export default function Home() {
       </header>
 
       <main className="relative z-10 flex-1">
-        <section className="mx-auto flex max-w-6xl flex-col items-center px-6 pb-20 pt-16 text-center md:pt-24">
+        <section className="mx-auto flex max-w-6xl flex-col items-center px-6 pb-20 pt-6 text-center md:pt-10">
           <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-border/80 bg-card/40 px-4 py-1.5 font-mono text-[11px] uppercase tracking-[0.2em] text-muted-foreground backdrop-blur">
             <span className="h-1.5 w-1.5 rounded-full bg-primary" />
             Powered by Ignition · Inductive Automation
