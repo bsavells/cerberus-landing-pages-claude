@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowUpRight, ShieldCheck, BarChart3, Bell, Activity } from 'lucide-react';
+import { StatusIndicator } from '@/components/status-indicator';
 
 const WEB_LAUNCH_URL =
   'https://cerberus.tradewindcontrols.com:8043/data/perspective/client/HighPeakEnergy';
@@ -23,13 +24,7 @@ export default function Home() {
               </span>
             </div>
           </div>
-          <div className="hidden items-center gap-2 font-mono text-xs text-muted-foreground sm:flex">
-            <span className="relative flex h-2 w-2">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75" />
-              <span className="relative inline-flex h-2 w-2 rounded-full bg-primary" />
-            </span>
-            SYSTEM ONLINE
-          </div>
+          <StatusIndicator />
         </div>
       </header>
 
