@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 215 35% 7%;
+    --foreground: 210 30% 96%;
+    --card: 215 30% 10%;
+    --card-foreground: 210 30% 96%;
+    --popover: 215 30% 10%;
+    --popover-foreground: 210 30% 96%;
+    --primary: 194 55% 52%;
+    --primary-foreground: 215 40% 8%;
+    --secondary: 215 25% 14%;
+    --secondary-foreground: 210 30% 96%;
+    --muted: 215 25% 14%;
+    --muted-foreground: 215 15% 65%;
+    --accent: 194 55% 52%;
+    --accent-foreground: 215 40% 8%;
+    --destructive: 0 70% 55%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 215 25% 18%;
+    --input: 215 25% 18%;
+    --ring: 194 55% 52%;
+    --radius: 0.625rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html, body {
+    @apply bg-background text-foreground;
+  }
+  body {
+    @apply font-body antialiased;
+    background-image:
+      radial-gradient(ellipse 80% 50% at 50% -10%, hsl(194 55% 52% / 0.18), transparent 60%),
+      radial-gradient(ellipse 60% 40% at 50% 110%, hsl(194 55% 52% / 0.10), transparent 60%);
+    background-attachment: fixed;
+  }
+}
+
+@layer utilities {
+  .bg-grid {
+    background-image:
+      linear-gradient(to right, hsl(215 25% 18% / 0.5) 1px, transparent 1px),
+      linear-gradient(to bottom, hsl(215 25% 18% / 0.5) 1px, transparent 1px);
+    background-size: 56px 56px;
+    mask-image: radial-gradient(ellipse 70% 60% at 50% 30%, #000 40%, transparent 100%);
+    -webkit-mask-image: radial-gradient(ellipse 70% 60% at 50% 30%, #000 40%, transparent 100%);
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .glow-primary {
+    box-shadow:
+      0 0 0 1px hsl(194 55% 52% / 0.35),
+      0 10px 40px -10px hsl(194 55% 52% / 0.55),
+      0 0 60px -20px hsl(194 55% 52% / 0.7);
+  }
+
+  .ring-divider {
+    background: linear-gradient(90deg, transparent, hsl(194 55% 52% / 0.6), transparent);
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-6px); }
+  }
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+}
