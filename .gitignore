@@ -48,3 +48,8 @@ firestore-debug.log
 .claude/settings.local.json
 .claude/worktrees/
 
+# editor / local tooling
+.vscode/
+.agents/
+studio.json
+
