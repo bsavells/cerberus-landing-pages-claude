@@ -7,10 +7,10 @@ const WEB_LAUNCH_URL =
 
 export default function Home() {
   return (
-    <div className="relative flex min-h-dvh flex-col overflow-hidden">
-      <div aria-hidden className="pointer-events-none absolute inset-0 bg-grid" />
+    <div className="relative flex min-h-dvh flex-col">
+      <div aria-hidden className="pointer-events-none fixed inset-0 -z-10 bg-grid" />
 
-      <header className="relative z-10 w-full border-b border-border/60 backdrop-blur-sm">
+      <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background/75 backdrop-blur-md">
         <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
           <div className="flex items-center gap-3">
             <div className="flex h-7 w-7 items-center justify-center rounded-md bg-primary/15 ring-1 ring-primary/40">
@@ -57,7 +57,7 @@ export default function Home() {
             <div className="relative flex items-center justify-center">
               <div
                 aria-hidden
-                className="absolute h-72 w-72 rounded-full bg-primary/20 blur-3xl"
+                className="absolute h-56 w-56 rounded-full bg-primary/20 blur-3xl"
               />
               <div className="relative animate-float">
                 <Image
@@ -66,7 +66,7 @@ export default function Home() {
                   width={300}
                   height={318}
                   priority
-                  className="h-56 w-auto object-contain drop-shadow-[0_0_40px_rgba(64,165,198,0.35)] md:h-64"
+                  className="h-40 w-auto object-contain drop-shadow-[0_0_40px_rgba(64,165,198,0.35)] md:h-44"
                 />
               </div>
             </div>
@@ -80,7 +80,7 @@ export default function Home() {
             review alarms, and access live SCADA from any browser.
           </p>
 
-          <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row">
+          <div className="mt-10 flex flex-col items-center gap-3">
             <Link
               href={WEB_LAUNCH_URL}
               className="group glow-primary inline-flex h-14 items-center justify-center gap-3 rounded-lg bg-primary px-8 text-base font-semibold text-primary-foreground transition-all duration-200 hover:scale-[1.02] hover:bg-primary/90"
@@ -129,7 +129,7 @@ export default function Home() {
       <footer className="relative z-10 w-full border-t border-border/60">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-6 py-6 text-center sm:flex-row sm:text-left">
           <p className="font-mono text-xs uppercase tracking-[0.18em] text-muted-foreground">
-            © 2022–2025 ·{' '}
+            © 2022–{new Date().getFullYear()} ·{' '}
             <Link
               href="https://www.tradewindcontrols.com"
               target="_blank"
