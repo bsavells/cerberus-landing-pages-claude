@@ -43,3 +43,8 @@ next-env.d.ts
 # firebase
 firebase-debug.log
 firestore-debug.log
+
+# claude code (user-local)
+.claude/settings.local.json
+.claude/worktrees/
+
