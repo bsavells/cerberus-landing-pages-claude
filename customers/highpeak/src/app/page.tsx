@@ -67,7 +67,7 @@ export default function Home() {
             </div>
           </div>
 
-          <h1 className="mt-12 max-w-3xl text-balance bg-gradient-to-b from-foreground to-foreground/70 bg-clip-text text-4xl font-bold tracking-tight text-transparent md:text-6xl">
+          <h1 className="mt-12 max-w-3xl text-balance bg-gradient-to-b from-foreground to-foreground/70 bg-clip-text pb-2 text-4xl font-bold leading-[1.15] tracking-tight text-transparent md:text-6xl">
             Real-time visibility for every barrel, every well, every site.
           </h1>
           <p className="mt-5 max-w-xl text-balance text-base text-muted-foreground md:text-lg">
